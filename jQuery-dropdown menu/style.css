@@ -1,0 +1,85 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  padding: 45px 0;
+  background-color: darkgray;
+}
+
+
+.header li {
+  display: inline;
+  line-height: 30px;
+}
+
+.header li + li {
+  margin-left: 80px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 20px;
+  color: #fff;
+  width: 200%;
+  padding-right: 100px;
+}
+
+.header h3 {
+  color: #fff;
+  font-size: 20px;
+  display: inline-block;
+  margin: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+
+
+.header .dropdown-menu li {
+  display: block;
+  margin: 0;
+  padding: 3px 10px;
+  color: red;
+}
+
+/* Main */
+.main {
+  background-color: lightgray;
+    background-size: cover;
+  height: 650px;
+  width: 100%;
+}
+
+/* Footer */
+.footer {
+  background-color: darkgray;
+  padding: 20px 0;
+  height: 200px;
+}
+
+
+@media (max-width: 1024px) { 
+  .header h1 { 
+    width: 100%; 
+    text-align: center; 
+  } 
+
+  .pull-right { 
+    padding-top: 40px;
+    width: 100%; 
+    text-align: center; 
+  }
+}
+
